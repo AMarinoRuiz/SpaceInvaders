@@ -5,7 +5,7 @@ import sys
 import os
 
 global laserX
-#test para git
+
 #initialize pygame
 pygame.init()
 
@@ -130,7 +130,7 @@ while running:
 	if laserY <= 0:
 		laserY = 480
 		laser_state = 'ready'
-		
+
 	playerX += playerX_change
 	if playerX <= 15:
 		playerX = 15
